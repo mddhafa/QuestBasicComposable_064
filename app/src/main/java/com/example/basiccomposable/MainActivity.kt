@@ -79,6 +79,15 @@ fun BasicCompose(
             )
         )
 
+        Text(
+            text = "Muhammad Dhafa",
+            style = TextStyle(
+                fontSize = 25.sp,
+                color = Color.Red
+            )
+        )
+
+
     }
 }
 
