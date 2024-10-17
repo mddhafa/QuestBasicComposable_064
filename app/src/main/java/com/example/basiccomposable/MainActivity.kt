@@ -68,8 +68,15 @@ fun BasicCompose(
         Image(painterResource ( id = R.drawable.umy),
             contentDescription = null,
             modifier = Modifier
-                .size(400.dp)
-                .padding(50.dp)
+                .size(350.dp)
+                .padding(45.dp)
+        )
+
+        Text(
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 25.sp
+            )
         )
 
     }
