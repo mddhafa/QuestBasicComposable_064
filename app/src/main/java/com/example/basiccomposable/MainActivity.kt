@@ -57,7 +57,7 @@ fun BasicCompose(
             text = "Login",
             style = TextStyle(
                 fontSize = 50.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.ExtraBold,
                 color = Color.Black,
             ),
         )
