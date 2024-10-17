@@ -42,10 +42,26 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BasicCompose(
     modifier: Modifier = Modifier
-){
-    Column (
+) {
+    Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    )
+    ) {
+        Text(
+            text = "Login",
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black,
+            ),
+        )
+
+
+    }
+}
+
+
+
+
 
