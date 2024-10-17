@@ -89,7 +89,6 @@ fun BasicCompose(
                 color = Color.Red
             )
         )
-
         Text(
             text = "20220140064",
             style = TextStyle(
@@ -100,7 +99,7 @@ fun BasicCompose(
         Image(painter = painterResource(id = R.drawable.dhafa),
             contentDescription = null,
             modifier = Modifier
-                .clip(RoundedCornerShape(50.dp))
+                .clip(RoundedCornerShape(200.dp))
         )
 
     }
