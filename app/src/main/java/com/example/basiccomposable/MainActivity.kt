@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -101,7 +102,7 @@ fun BasicCompose(
             contentDescription = null,
             modifier = Modifier
                 .clip(RoundedCornerShape(200.dp))
+                .border(2.dp, Color.Yellow, RoundedCornerShape(200.dp))
         )
-
     }
 }
