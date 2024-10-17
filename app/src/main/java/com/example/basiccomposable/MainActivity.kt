@@ -93,7 +93,8 @@ fun BasicCompose(
         Text(
             text = "20220140064",
             style = TextStyle(
-                fontSize = 30.sp
+                fontSize = 30.sp,
+                color = Color.Blue
             )
         )
         Image(painter = painterResource(id = R.drawable.dhafa),
