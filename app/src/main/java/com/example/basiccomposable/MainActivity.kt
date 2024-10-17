@@ -69,7 +69,7 @@ fun BasicCompose(
             contentDescription = null,
             modifier = Modifier
                 .size(350.dp)
-                .padding(45.dp)
+                .padding(30.dp)
         )
 
         Text(
@@ -84,6 +84,13 @@ fun BasicCompose(
             style = TextStyle(
                 fontSize = 25.sp,
                 color = Color.Red
+            )
+        )
+
+        Text(
+            text = "20220140064",
+            style = TextStyle(
+                fontSize = 50.sp
             )
         )
 
