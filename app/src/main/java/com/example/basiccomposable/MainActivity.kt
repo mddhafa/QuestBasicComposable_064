@@ -72,7 +72,7 @@ fun BasicCompose(
             contentDescription = null,
             modifier = Modifier
                 .size(250.dp)
-                .padding(30.dp)
+                .padding(40.dp)
         )
 
         Text(
